@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Special+Elite&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +25,59 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+/* ❄️: add google font */
+#mainTag {
+  background: url(../assets/images/bg.jpg);
+  background-size: cover;
+  font-family: 'Audiowide','Special Elite', monospace;
+}
+
+/*  ------ ❄️ nav bar style -------- */
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 4%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#navBar ul {
+  margin-left: auto;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+#navBar ul li {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#navBar ul li:hover {
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 12px;
+}
+
+#navBar #navBarName {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 3%;
+}
+
+/*  ------ ❄️  footer style -------- */
+footer ul li {
+  padding: 5%;
+  margin: 5%;
 }
