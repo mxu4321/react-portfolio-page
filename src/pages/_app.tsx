@@ -1,13 +1,14 @@
-import Footer from '@/components/footer';
-import NavBar from '@/components/navBar';
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import Footer from "@/components/footer";
+import NavBar from "@/components/navBar";
+import Portfolio from "@/components/Portfolio";
+import Contact from "@/components/Contact";
+import Resume from "@/components/resume";
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
 import Head from "next/head";
 
-
 export default function App({ Component, pageProps }: AppProps) {
-  // return <Component {...pageProps} />
-  return  (
+  return (
     <div>
       <Head>
         <title> Mengxue Xu's Portfolio Page</title>
@@ -17,15 +18,22 @@ export default function App({ Component, pageProps }: AppProps) {
 
       <main id="mainTag" className="bg-slate-800 min-h-screen text-slate-100">
         {/* ------ ❄️ nav bar ------- */}
-        <NavBar/>
+        <NavBar />
 
         {/* ------ ❄️ about me ------- */}
         <Component {...pageProps} />
 
-        {/* ------ ❄️ footer ------- */}
-        {/* ❄️ TODO: footer not rendering❌ */}
-        <Footer />
+        {/* ------ ❄️ portfolio ------- */}
+        <Portfolio />
 
+        {/* ------ ❄️ contact ------- */}
+        <Contact />
+
+        {/* ------ ❄️ resume ------- */}
+        <Resume />
+
+        {/* ------ ❄️ footer ------- */}
+        <Footer />
       </main>
     </div>
   );

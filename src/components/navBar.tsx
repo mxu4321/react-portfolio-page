@@ -20,15 +20,15 @@ export default function NavBar() {
           </li>
           <li>
             <BsFillBriefcaseFill />
-            <a href="#">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
           </li>
           <li>
             <BsFillEnvelopeFill />
-            <a href="#">Contact</a>
+            <a href="contact">Contact</a>
           </li>
           <li>
             <BsFillFileEarmarkTextFill />
-            <a href="#">Resume</a>
+            <a href="resume">Resume</a>
           </li>
         </ul>
       </nav>
