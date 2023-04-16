@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 export default function Footer() {
   return (
     <section>
-      <footer className="w-full py-4 absolute bottom-0">
+      <footer className="w-full py-4 relative bottom-0">
         <div className="flex justify-center">
           <ul className="flex items-center text-3xl">
             <li>
