@@ -8,17 +8,17 @@ export default function Footer() {
         <div className="flex justify-center">
           <ul className="flex items-center text-3xl">
             <li>
-              <a href="#">
+              <a href="https://github.com/mxu4321">
                 <FaGithub />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/mengxuexu/">
                 <FaLinkedin />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="mailto:mxu4321@gmail.com">
                 <FaEnvelope />
               </a>
             </li>
