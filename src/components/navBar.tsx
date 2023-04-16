@@ -1,13 +1,13 @@
 // ❄️ import icon for about me/portfolio/contact/resume
-import Link from "next/link";
 import {
   BsFillPersonFill,
   BsFillBriefcaseFill,
   BsFillEnvelopeFill,
   BsFillFileEarmarkTextFill,
 } from "react-icons/bs";
+import Link from "next/link";
 
-// ❄️ pascal ⤵️
+// ❄️ use pascal case for naming component
 export default function NavBar() {
   return (
     <section>
