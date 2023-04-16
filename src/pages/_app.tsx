@@ -1,7 +1,7 @@
 import Footer from "@/components/footer";
 import NavBar from "@/components/navBar";
-import Portfolio from "@/components/Portfolio";
-import Contact from "@/components/Contact";
+import Portfolio from "@/components/portfolio";
+import Contact from "@/components/contact";
 import Resume from "@/components/resume";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
