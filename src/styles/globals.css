@@ -81,3 +81,24 @@ footer ul li {
   padding: 5%;
   margin: 5%;
 }
+
+/*  ------ ❄️  portfolio page -------- */
+#portfolio-page .project-block {
+  margin: 5%;
+}
+
+#portfolio-page .project-img {
+  padding-left: 10%;
+  margin-left: 10%;
+}
+
+/* vertical align the paragraph to the center */
+#portfolio-page .project-description {
+  margin-right: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: larger;
+}

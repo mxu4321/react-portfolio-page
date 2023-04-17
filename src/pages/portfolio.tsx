@@ -9,8 +9,8 @@ export default function Portfolio() {
   return (
     <section id="portfolio-page">
       {/* -------- code quiz ----- */}
-      <div className="grid grid-cols-2 gap-0">
-        <div className="pl-10 ml-10">
+      <div className="project-block grid grid-cols-2">
+        <div className="project-img">
           <Image
             src={codeQuizImg}
             alt="code quiz"
@@ -26,8 +26,8 @@ export default function Portfolio() {
       </div>
 
       {/* -------- weather dashboard ----- */}
-      <div className="grid grid-cols-2 gap-0">
-        <div className="pl-10 ml-10">
+      <div className="project-block grid grid-cols-2">
+        <div className="project-img">
           <Image
             src={weatherImg}
             alt="weather dashboard"
@@ -42,8 +42,8 @@ export default function Portfolio() {
       </div>
 
       {/* -------- nba api----- */}
-      <div className="grid grid-cols-2 gap-0">
-        <div className="pl-10 ml-10">
+      <div className="project-block grid grid-cols-2">
+        <div className="project-img">
           <Image
             src={ballerImg}
             alt="stat a baller"
@@ -59,8 +59,8 @@ export default function Portfolio() {
       </div>
 
       {/* -------- craft site ----- */}
-      <div className="grid grid-cols-2 gap-0">
-        <div className="pl-10 ml-10">
+      <div className="project-block grid grid-cols-2">
+        <div className="project-img">
           <Image
             src={craftImg}
             alt="craft but not least"
