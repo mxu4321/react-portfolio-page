@@ -16,19 +16,19 @@ export default function NavBar() {
           <h1 id="navBarName">Mengxue Xu</h1>
           <li>
             <BsFillPersonFill />
-            <Link href="/">About me</Link>
+            <Link href="/aboutMe">About me</Link>
           </li>
           <li>
             <BsFillBriefcaseFill />
-            <a href="/portfolio">Portfolio</a>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li>
             <BsFillEnvelopeFill />
-            <a href="contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
           <li>
             <BsFillFileEarmarkTextFill />
-            <a href="resume">Resume</a>
+            <Link href="/resume">Resume</Link>
           </li>
         </ul>
       </nav>

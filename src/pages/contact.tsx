@@ -3,13 +3,13 @@ export default function Contact() {
     <section className="flex justify-center">
       <div
         id="contactPage"
-        className="border-solid border-2 block max-w-md rounded-lg p-6 px-8 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+        className="border-solid border-2 block rounded-lg p-6 px-8 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
       >
         <div>
           <h5 className="text-2xl mb-4">Contact Me</h5>
         </div>
 
-        <form>
+        <form className="w-96">
           {/* ------- name input ---------- */}
           <div className="relative mb-6">
             <input

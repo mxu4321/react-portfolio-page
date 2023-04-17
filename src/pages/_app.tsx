@@ -1,8 +1,9 @@
 import Footer from "@/components/footer";
 import NavBar from "@/components/navBar";
-import Portfolio from "@/components/portfolio";
-import Contact from "@/components/contact";
-import Resume from "@/components/resume";
+import aboutMe from "@/pages/aboutMe";
+import Portfolio from "@/pages/portfolio";
+import Contact from "@/pages/contact";
+import Resume from "@/pages/resume";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -22,6 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
         {/* ------ ❄️ about me ------- */}
         <Component {...pageProps} />
+        {/* <aboutMe /> */}
 
         {/* ------ ❄️ portfolio ------- */}
         <Portfolio />
@@ -30,6 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Contact />
 
         {/* ------ ❄️ resume ------- */}
+        {/* <Component {...pageProps} /> */}
         <Resume />
 
         {/* ------ ❄️ footer ------- */}
