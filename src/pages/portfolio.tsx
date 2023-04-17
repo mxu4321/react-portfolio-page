@@ -19,7 +19,7 @@ export default function Portfolio() {
         </div>
         <div>
           <p className="project-description">
-            A web api based application that allows users to take a timed quiz
+            A web based application that allows users to take a timed quiz
             on JavaScript fundamentals that stores high scores.
           </p>
         </div>
@@ -36,8 +36,7 @@ export default function Portfolio() {
         </div>
         <div>
           <p className="project-description">
-            A web api based application that allows users to take a timed quiz
-            on JavaScript fundamentals that stores high scores.
+            A 3rd-party api based application that allows users to search for weather forecast in different cities.
           </p>
         </div>
       </div>
