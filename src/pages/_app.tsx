@@ -26,14 +26,14 @@ export default function App({ Component, pageProps }: AppProps) {
         {/* <aboutMe /> */}
 
         {/* ------ ❄️ portfolio ------- */}
-        <Portfolio />
+        {/* <Portfolio /> */}
 
         {/* ------ ❄️ contact ------- */}
-        <Contact />
+        {/* <Contact /> */}
 
         {/* ------ ❄️ resume ------- */}
         {/* <Component {...pageProps} /> */}
-        <Resume />
+        {/* <Resume /> */}
 
         {/* ------ ❄️ footer ------- */}
         <Footer />
