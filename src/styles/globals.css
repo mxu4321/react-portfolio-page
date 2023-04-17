@@ -74,6 +74,7 @@ body {
   font-weight: bold;
   margin-right: auto;
   margin-left: 3%;
+  text-shadow: 2px 2px 4px #ddd8ff;
 }
 
 /*  ------ ❄️  footer style -------- */
@@ -83,8 +84,16 @@ footer ul li {
 }
 
 /*  ------ ❄️  portfolio page -------- */
+#portfolio-page {
+  padding-top: 12%;
+}
+
+#portfolio-page #portfolio-page-header {
+  text-shadow: 2px 2px 4px #ddd8ff;
+}
+
 #portfolio-page .project-block {
-  margin: 5%;
+  padding: 2%;
 }
 
 #portfolio-page .project-img {

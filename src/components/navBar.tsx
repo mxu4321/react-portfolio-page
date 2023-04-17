@@ -16,7 +16,7 @@ export default function NavBar() {
           <h1 id="navBarName">Mengxue Xu</h1>
           <li>
             <BsFillPersonFill />
-            <Link href="/aboutMe">About me</Link>
+            <Link href="/">About me</Link>
           </li>
           <li>
             <BsFillBriefcaseFill />

@@ -13,7 +13,7 @@ export default function aboutMe() {
         </div>
         <div className="relative mx-10 px-10">
           <p className="text-lg">
-            Hi, I'm Mengxue Xu, a full-stack developer based in San Francisco
+            Hi, I'm Mengxue (mung-shoo-ey) Xu (shoo), a full-stack developer based in San Francisco
             Bay Area, CA. I enjoy creating things that live on the internet,
             whether that be websites, applications, or anything in between. My
             passion is to craft elegant and efficient solutions that solve

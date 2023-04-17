@@ -8,6 +8,11 @@ import craftImg from "../assets/images/projects/craft_but_not_least.png";
 export default function Portfolio() {
   return (
     <section id="portfolio-page">
+      {/* -------- header ----- */}
+      <div>
+        <h3 id="portfolio-page-header" className="flex justify-center text-3xl"> Work Samples</h3>
+      </div>
+    
       {/* -------- code quiz ----- */}
       <div className="project-block grid grid-cols-2">
         <div className="project-img">
@@ -19,8 +24,8 @@ export default function Portfolio() {
         </div>
         <div>
           <p className="project-description">
-            A web based application that allows users to take a timed quiz
-            on JavaScript fundamentals that stores high scores.
+            A web based application that allows users to take a timed quiz on
+            JavaScript fundamentals that stores high scores.
           </p>
         </div>
       </div>
@@ -36,7 +41,8 @@ export default function Portfolio() {
         </div>
         <div>
           <p className="project-description">
-            A 3rd-party api based application that allows users to search for weather forecast in different cities.
+            A 3rd-party api based application that allows users to search for
+            weather forecast in different cities.
           </p>
         </div>
       </div>
