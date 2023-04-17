@@ -37,12 +37,10 @@ This single-page application includes my showcase of deployed portfolio of work 
 ```
 ## Screenshots
 
-![sreenshot-1](https://user-images.githubusercontent.com/112605297/231017452-c9cfe00b-5c98-4ab1-87bc-3fac5c94ef91.png)
-![sreenshot-2](https://user-images.githubusercontent.com/112605297/231017453-baceb9ea-4ca8-4e4b-a8d9-0021f94e1323.png)
-![sreenshot-3](https://user-images.githubusercontent.com/112605297/231017463-dda6b4da-175e-4312-b3e6-6ec839715fd2.png)
-![sreenshot-4](https://user-images.githubusercontent.com/112605297/231017474-f8b65083-1d79-4a3a-a31b-5e7278726465.png)
-![sreenshot-5](https://user-images.githubusercontent.com/112605297/231017483-7666ce39-6ed0-4423-b328-34276cfffecd.png)
-
+![sreenshot-1](./src/assets/images/screenshots/aboutme.png)
+![sreenshot-2](./src/assets/images/screenshots/portfolio.png)
+![sreenshot-3](./src/assets/images/screenshots/contact.png)
+![sreenshot-4](./src/assets/images/screenshots/resume.png)
 
 
 ## Run Locally
