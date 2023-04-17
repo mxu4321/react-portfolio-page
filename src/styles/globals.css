@@ -102,3 +102,12 @@ footer ul li {
   height: 100%;
   font-size: larger;
 }
+
+/*  ------ ❄️  resume page -------- */
+.resume-page {
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

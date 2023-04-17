@@ -8,25 +8,30 @@ import { BsDatabaseFillGear } from "react-icons/bs";
 export default function Resume() {
   return (
     <div>
-      <section className="py-60">
+      <section className="resume-page">
         <div className="flex justify-center">
-          {/* ------ title ------ */}
-          <div>
-            <span id="resume-page-header"> {/* <h1>Resume</h1> */}</span>
-          </div>
           {/* ------ Download ------ */}
           <div id="resume-page-download">
-            <p className="py-5">
-              To download my resume:
+            <h4 className="py-5 text-xl">
+              To download my full resume:
               <span className="mx-auto float-right ml-2">
-                <a href="/MengxueXu_Resume_2023.pdf"><BsCloudDownload /></a>
+                <a href="/MengxueXu_Resume_2023.pdf">
+                  <BsCloudDownload />
+                </a>
               </span>
-            </p>
+            </h4>
           </div>
         </div>
       </section>
+      {/* ------ title ------ */}
+      <div className="flex justify-center">
+        <span id="resume-page-header">
+          <h4 className="text-xl py-3">Check out my web development skills:</h4>
+        </span>
+      </div>
       {/* ------ skills ------ */}
-      <section id="resume-page-skills" className="flex justify-center">
+
+      <section id="resume-page-skills" className="flex justify-center py-5">
         <div className="grid grid-cols-3 gap-20">
           {/* front-end */}
           <div className="border-solid rounded-lg border-2 p-2">
