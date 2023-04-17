@@ -1,8 +1,7 @@
 export default function Contact() {
   return (
-    <section className="flex justify-center">
+    <section id="contactPage" className="flex justify-center">
       <div
-        id="contactPage"
         className="border-solid border-2 block rounded-lg p-6 px-8 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
       >
         <div>
