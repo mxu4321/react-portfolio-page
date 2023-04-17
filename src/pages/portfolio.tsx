@@ -10,17 +10,23 @@ export default function Portfolio() {
     <section id="portfolio-page">
       {/* -------- header ----- */}
       <div>
-        <h3 id="portfolio-page-header" className="flex justify-center text-3xl"> Work Samples</h3>
+        <h3 id="portfolio-page-header" className="flex justify-center text-3xl">
+          {" "}
+          Work Samples
+        </h3>
       </div>
-    
+
       {/* -------- code quiz ----- */}
       <div className="project-block grid grid-cols-2">
         <div className="project-img">
-          <Image
-            src={codeQuizImg}
-            alt="code quiz"
-            className="object-cover h-48 w-80 rounded-lg"
-          />
+          <a href="https://mxu4321.github.io/module4_challenge/">
+            {" "}
+            <Image
+              src={codeQuizImg}
+              alt="code quiz"
+              className="object-cover h-48 w-80 rounded-lg"
+            />
+          </a>
         </div>
         <div>
           <p className="project-description">
@@ -33,11 +39,13 @@ export default function Portfolio() {
       {/* -------- weather dashboard ----- */}
       <div className="project-block grid grid-cols-2">
         <div className="project-img">
-          <Image
-            src={weatherImg}
-            alt="weather dashboard"
-            className="object-cover h-48 w-80 rounded-lg"
-          />
+          <a href="https://mxu4321.github.io/Weather_Dashboard/">
+            <Image
+              src={weatherImg}
+              alt="weather dashboard"
+              className="object-cover h-48 w-80 rounded-lg"
+            />
+          </a>
         </div>
         <div>
           <p className="project-description">
@@ -50,11 +58,13 @@ export default function Portfolio() {
       {/* -------- nba api----- */}
       <div className="project-block grid grid-cols-2">
         <div className="project-img">
-          <Image
-            src={ballerImg}
-            alt="stat a baller"
-            className="object-cover h-48 w-80 rounded-lg"
-          />
+          <a href="https://coderchrisdean.github.io/stat-a-baller/">
+            <Image
+              src={ballerImg}
+              alt="stat a baller"
+              className="object-cover h-48 w-80 rounded-lg"
+            />
+          </a>
         </div>
         <div>
           <p className="project-description">
@@ -67,11 +77,13 @@ export default function Portfolio() {
       {/* -------- craft site ----- */}
       <div className="project-block grid grid-cols-2">
         <div className="project-img">
-          <Image
-            src={craftImg}
-            alt="craft but not least"
-            className="object-cover h-48 w-80 rounded-lg"
-          />
+          <a href="https://craft-but-not-least.herokuapp.com/">
+            <Image
+              src={craftImg}
+              alt="craft but not least"
+              className="object-cover h-48 w-80 rounded-lg"
+            />
+          </a>
         </div>
 
         <div>
