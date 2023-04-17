@@ -1,38 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+#  React Portfolio
 
-First, run the development server:
+Module 20 - React Challenge
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Description
+This single-page application includes my showcase of deployed portfolio of work samples, my development skills, and my contact information with downloadable resume.
+
+ ## Table of Contents:  
+- [Deployment](#deployment)  
+- [dependencies](#dependencies)
+- [Screenshots](#screenshots)
+- [Run Locally](#run-locally)
+- [Tech Stack](#tech-stack)
+
+
+
+## Deployment
+
+[Click here for the deployed application](https://mxu4321.github.io/react-portfolio-page/)
+
+
+## Dependencies
+
 ```
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "next": "13.3.0",
+    "postcss": "8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
+```
+## Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![sreenshot-1](https://user-images.githubusercontent.com/112605297/231017452-c9cfe00b-5c98-4ab1-87bc-3fac5c94ef91.png)
+![sreenshot-2](https://user-images.githubusercontent.com/112605297/231017453-baceb9ea-4ca8-4e4b-a8d9-0021f94e1323.png)
+![sreenshot-3](https://user-images.githubusercontent.com/112605297/231017463-dda6b4da-175e-4312-b3e6-6ec839715fd2.png)
+![sreenshot-4](https://user-images.githubusercontent.com/112605297/231017474-f8b65083-1d79-4a3a-a31b-5e7278726465.png)
+![sreenshot-5](https://user-images.githubusercontent.com/112605297/231017483-7666ce39-6ed0-4423-b328-34276cfffecd.png)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Run Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run this application locally, use these following commands in the terminal:
 
-## Learn More
+* install all dependecies:
+    ```
+    npm i
+    ```
+    
+* start the server:
+    ```
+    npm run dev
+    ```
+* Open this URL in your browser:
+    ```
+    http://localhost:3000
+    ```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![](https://img.shields.io/badge/Node.js-Node.js-light?style=flat&logo=nodedotjs)
 
-## Deploy on Vercel
+![](https://img.shields.io/badge/Style-TailwindCSS-00BFFF?style=flat&logo=tailwindcss)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![](https://img.shields.io/badge/npm%20package-Next.js-white?style=plastic&logo=nextdotjs) 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![](https://img.shields.io/badge/npm%20package-React.js-61DAFB?style=flat&logo=react) 
+
+![](https://img.shields.io/badge/npm%20package-TypeScript-1E90FF?style=for-the-badge&logo=typescript)
+
