@@ -4,6 +4,7 @@ import codeQuizImg from "../assets/images/projects/code_quiz.gif";
 import weatherImg from "../assets/images/projects/weather_dashboard_screenshot.png";
 import ballerImg from "../assets/images/projects/stat_a_baller.gif";
 import craftImg from "../assets/images/projects/craft_but_not_least.png";
+import petPalImg from "../assets/images/projects/petpal.gif";
 
 export default function Portfolio() {
   return (
@@ -30,7 +31,7 @@ export default function Portfolio() {
         </div>
         <div>
           <p className="project-description">
-            A web based application that allows users to take a timed quiz on
+            Code Quiz is a web based application that allows users to take a timed quiz on
             JavaScript fundamentals that stores high scores.
           </p>
         </div>
@@ -49,7 +50,7 @@ export default function Portfolio() {
         </div>
         <div>
           <p className="project-description">
-            A 3rd-party api based application that allows users to search for
+            Weather dashboard is a 3rd-party api based application that allows users to search for
             weather forecast in different cities.
           </p>
         </div>
@@ -92,6 +93,24 @@ export default function Portfolio() {
             application that allows users to create an account, login, create
             listings for and purchase or trade craft supplies and tools directly
             from other users.
+          </p>
+        </div>
+      </div>
+
+      {/* -------- pet pal app----- */}
+      <div className="project-block grid grid-cols-2">
+        <div className="project-img">
+          <a href="https://petpal.herokuapp.com/">
+            <Image
+              src={petPalImg}
+              alt="pet pal"
+              className="object-cover h-48 w-80 rounded-lg"
+            />
+          </a>
+        </div>
+        <div>
+          <p className="project-description">
+          Pet Pal is a pet sitting web application that allows clients to set up a profile, browse various pet sitting services, schedule a trusted pet-sitter within their community, and pay via a secure payment system.
           </p>
         </div>
       </div>
